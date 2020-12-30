@@ -14,7 +14,7 @@ BEGIN
 
     dbms_output.put_line('Your salary increase is : ' || v_salary_increase);
 END;
-    -------------------------SEARCHED CASE EXPRESSION----------------------------
+-------------------------SEARCHED CASE EXPRESSION----------------------------
     DECLARE
     v_job_code         VARCHAR2(10) := 'IT_PROG';
     v_department       VARCHAR2(10) := 'IT';
@@ -34,7 +34,7 @@ BEGIN
 
     dbms_output.put_line('Your salary increase is : ' || v_salary_increase);
 END;
-    ---------------------------CASE STATEMENTS------------------------------------
+---------------------------CASE STATEMENTS------------------------------------
     DECLARE
     v_job_code         VARCHAR2(10) := 'IT_PROG';
     v_department       VARCHAR2(10) := 'IT';
@@ -55,4 +55,4 @@ BEGIN
             dbms_output.put_line('The salary increase for this job code is : ' || v_salary_increase);
     END CASE;
 END;
-    -------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
