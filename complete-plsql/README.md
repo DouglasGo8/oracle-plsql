@@ -63,8 +63,9 @@ password: oracle
 * Created in the host environment
 
 ### Composite Types
-* Records - Represents one entire record of table just one row
-* Nested tables store data within indexes starting increasing by index
-* Varrays works like predefined bounded length array
-* Associated Arrays index by any value positive or negative
-* In memory tables used to work with DML DDL etc in memory way
+* Records and Collections
+ * Records - Represents one entire record of table just one row
+ * Collection Type 1. Nested tables store data within indexes starting increased by index
+ * Collection Type 2. Varrays works like predefined bounded length array
+ * Collection Type 3. Associated Arrays index by any value positive or negative
+ * In memory tables used to work with DML DDL etc in memory way
