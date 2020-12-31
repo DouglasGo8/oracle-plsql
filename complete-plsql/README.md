@@ -61,3 +61,10 @@ password: oracle
 ### Bind variables
 * Increase the performance
 * Created in the host environment
+
+### Composite Types
+* Records - Represents one entire record of table just one row
+* Nested tables store data within indexes starting increasing by index
+* Varrays works like predefined bounded length array
+* Associated Arrays index by any value positive or negative
+* In memory tables used to work with DML DDL etc in memory way
