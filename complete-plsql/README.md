@@ -69,3 +69,9 @@ password: oracle
  * Collection Type 2. Varrays works like predefined bounded length array
  * Collection Type 3. Associated Arrays index by any value positive or negative
  * In memory tables used to work with DML DDL etc in memory way
+ 
+### Cursors
+* Types are Implicit and Explicit
+* Implicit create and managed by database
+* Explicit have manual control over fetched data
+* With Cursos we can go back in register just foward

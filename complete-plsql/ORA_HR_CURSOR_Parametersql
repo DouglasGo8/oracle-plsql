@@ -1,0 +1,19 @@
+DECLARE
+    CURSOR c_emps (
+        p_dept_id NUMBER
+    ) IS
+    SELECT
+        first_name,
+        last_name,
+        department_name
+    FROM
+             employees
+        JOIN departments USING ( department_id )
+    WHERE
+        department_id = p_dept_id;
+
+BEGIN
+    FOR stmt IN c_emps(:b_param) LOOP -- with bind variable
+        dbms_output.put_line(stmt.first_name);
+    END LOOP;
+END;
